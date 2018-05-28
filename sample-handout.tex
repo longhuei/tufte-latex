@@ -29,6 +29,17 @@
 \newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
 \newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
 
+\usepackage{fontspec}
+% \setmainfont[Ligatures=TeX]{Financier_Text_Regular.otf}
+\setmainfont{Financier-Text}[ 
+Extension = .otf,
+UprightFont = *-Regular,
+BoldFont = *-Bold,
+ItalicFont = *-Italic,
+BoldItalicFont = *-Bold-Italic]
+\renewcommand\allcapsspacing[1]{{\addfontfeature{LetterSpace=15}#1}}
+\renewcommand\smallcapsspacing[1]{{\addfontfeature{LetterSpace=10}#1}}
+
 \begin{document}
 
 \maketitle% this prints the handout title, author, and date

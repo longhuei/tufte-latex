@@ -1,4 +1,4 @@
-\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+% \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 
 \ProvidesClass{tufte-handout}[2015/06/21 v3.5.2 Tufte-handout class]
 
